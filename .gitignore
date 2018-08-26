@@ -71,8 +71,8 @@ npm-debug.log
 /public/__build__/
 /src/*/__build__/
 /__build__/**
-/public/dist/
-/src/*/dist/
+/public/
+/src/*/
 .webpack.json
 
 # IDE #
