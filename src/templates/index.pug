@@ -1,0 +1,41 @@
+extends _layout/layout
+
+block variables
+	- var title = 'Home'
+	- var description = 'Description for home page'
+	- var bodyclass = 'home'
+
+block body
+	//- HOME NEWS
+	section.home_news
+		.container
+			.row
+				.col-12.mb-5.title
+					h2 ĐỊNH HƯỚNG PHÁT TRIỂN
+					ul.list-group
+						li.list-group.item
+							a(href="") TẤT CẢ
+						li.list-group.item
+							a(href="") GROUP
+						li.list-group.item
+							a(href="") TIN THỊ TRƯỜNG
+						li.list-group.item
+							a(href="") TIN VỊT
+				.col-md-4.news_items
+					a(href="#")
+						figure.figure
+							.figure-img
+								img(src="./img/home_news_6.png", alt="")
+								
+				.col-md-4.news_items
+					a(href="#")
+						figure.figure
+							.figure-img
+								img(src="./img/home_news_6.png", alt="")
+							
+				.col-md-4.news_items
+					a(href="#")
+						figure.figure
+							.figure-img
+								img(src="./img/home_news_6.png", alt="")
+							

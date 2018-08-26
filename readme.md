@@ -1,11 +1,45 @@
-# Lấy dự án về máy 
-> git clone https://github.com/fullstackvietnam/fs-01-web-basic.git
-# Chạy dự án
-- Update Node Modules
+```
+    $$$$$$$\   $$$$$$\   $$$$$$\  $$\   $$\  $$$$$$\  $$\   $$\ $$\     $$\ $$$$$$$$\ $$\   $$\
+    $$  __$$\ $$  __$$\ $$  __$$\ $$$\  $$ |$$  __$$\ $$ |  $$ |\$$\   $$  |$$  _____|$$$\  $$ |
+    $$ |  $$ |$$ /  $$ |$$ /  $$ |$$$$\ $$ |$$ /  \__|$$ |  $$ | \$$\ $$  / $$ |      $$$$\ $$ |
+    $$$$$$$\ |$$$$$$$$ |$$ |  $$ |$$ $$\$$ |$$ |$$$$\ $$ |  $$ |  \$$$$  /  $$$$$\    $$ $$\$$ |
+    $$  __$$\ $$  __$$ |$$ |  $$ |$$ \$$$$ |$$ |\_$$ |$$ |  $$ |   \$$  /   $$  __|   $$ \$$$$ |
+    $$ |  $$ |$$ |  $$ |$$ |  $$ |$$ |\$$$ |$$ |  $$ |$$ |  $$ |    $$ |    $$ |      $$ |\$$$ |
+    $$$$$$$  |$$ |  $$ | $$$$$$  |$$ | \$$ |\$$$$$$  |\$$$$$$  |    $$ |    $$$$$$$$\ $$ | \$$ |
+    \_______/ \__|  \__| \______/ \__|  \__| \______/  \______/     \__|    \________|\__|  \__|
+
+    Coding by: Bao Nguyen
+    Tel: 0.96.96.89.89.3
+    Email: baonguyenyam@gmail.com
+    URL: fb.com/pham.nguyen.bao.nguyen,
+    baonguyenyam.github.io/cv
+    FullStack Vietnam: https://fullstackvietnam.com/
+```
+# Cài đặt
+
 > npm i 
 
-- Update Bower Componets
+và 
+
+> npm audit fix
+
+Cài đặt Components 
+
 > bower update 
 
-Sau đó để chạy web đánh lệnh 
-> gulp
+# Chạy dự án 
+
+> npm start
+
+# Chạy Production 
+
+> gulp build --production
+
+# Cấu hình
+
+- Xem file `config.json`
+- Xem các files trong thư mục `tasks`
+
+# Tạo Favicon
+
+https://www.favicon-generator.org/
